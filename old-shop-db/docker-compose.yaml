@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+  db_oldrapshop:
+    container_name: db_oldrapshop
+    ports:
+      - "5438:5432"
+    environment:
+      - POSTGRES_DB=db_oldrapshop
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=#gj&frg47(6#4XNp
+    image: postgres:15.2-alpine
